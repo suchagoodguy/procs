@@ -1,0 +1,6 @@
+#!/bin/bash
+
+time $(echo "define f (x) { if (x<=1) return (1); return (f(x-1) * x); }; f(20000)" | nice -n 10 bc > /dev/null) &
+time $(echo "define f (x) { if (x<=1) return (1); return (f(x-1) * x); }; f(20000)" | bc > /dev/null) &
+
+exit

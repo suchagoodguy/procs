@@ -1,0 +1,9 @@
+[vagrant@procs vagrant]$ ./cputests
+[vagrant@procs vagrant]$ 
+real	0m4.854s
+user	0m4.348s
+sys	0m0.031s
+
+real	0m8.767s
+user	0m4.355s
+sys	0m0.030s
